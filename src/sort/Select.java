@@ -20,7 +20,7 @@ public class Select {
 			arr[tmp]=arr[i];
 			arr[i]=min;
 			for (int j = 0; j < arr.length; j++) {
-				System.out.print(arr[j] + " ");
+				System.out.print(arr[j] + "  ");
 			}
 			System.out.println();
 		}
