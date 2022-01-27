@@ -14,7 +14,7 @@ public class Quick {
 		}
 	}
 	
-	static void quickSort(int[] data, int start, int end) {
+	static public void quickSort(int[] data, int start, int end) {
 		if(start >= end) {  // 원소가 1개인 경우
 			return;
 		}
