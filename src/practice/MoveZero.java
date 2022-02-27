@@ -29,7 +29,6 @@ public class MoveZero {
 			System.out.println(arrList.get(i));
 		}
 //		String a ="[";
-//		System.out.println(arrList.size());
 //		while(temp<arrLen) {
 //			if(arr[temp]==0) {
 //				cnt+=1;
