@@ -1,14 +1,13 @@
 package practice;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class RemoveDuplicate {
 //코테에서는 ArrayList를 쓰자
 	public static void main(String[] args) {
 		int[] arr = {1, 1, 2, 2, 2, 2, 5, 7, 7, 8};
-//		ArrayList<Integer> result = new ArrayList<Integer>();
 		ArrayList<Integer> result = removeDuplicate(arr);
+		
 		String a = "[";
 		int temp = result.size() - 1;
 		for (int i = 0; i < temp; i++) {
