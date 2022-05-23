@@ -41,7 +41,8 @@ public class Stack1 {
 					System.out.println(-1);
 				}
 			}else {
-				String val = input.split("h")[1].strip();
+//				String val = input.split("h")[1].strip();
+				String val = input.split(" ")[1];
 				int intVal = Integer.parseInt(val);
 				stack.push(intVal);	
 			}
