@@ -1,0 +1,33 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-180f383fa3f-765f42c67b723560": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "sparta",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "sparta.cbt9ceqjwlr9.ap-northeast-2.rds.amazonaws.com",
+				"port": "3306",
+				"database": "sparta",
+				"url": "jdbc:mysql://sparta.cbt9ceqjwlr9.ap-northeast-2.rds.amazonaws.com:3306/sparta",
+				"home": "C:\\Program Files\\MySQL\\MySQL Router 8.0",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
