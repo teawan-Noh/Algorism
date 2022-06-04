@@ -11,10 +11,16 @@ public class Factorial_10872 {
 		
 		int input = Integer.parseInt(br.readLine());
 		int result = 1;
-		for (int i = input; i > 1; i--) {
-			result *= i;
-		}
+//		for (int i = input; i > 1; i--) {
+//			result *= i;
+//		}
+		result = factorial(input);
 		System.out.println(result);
+	}
+	
+	public static int factorial(int n) {
+		if(n <= 1) return 1;
+		return factorial(n-1) * n;
 	}
 
 }
